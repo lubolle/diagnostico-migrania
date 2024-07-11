@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Form to understand the risk of migranie" />
+        <meta name="author" content="BOLLE" />
+        <title>Formulario migraña</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-pfizerBack text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <!-- <a class="navbar-brand" href="#page-top"><img class="img-fluid" src="assets/img/avataaars.svg" alt="Pfizer logo" /></a> -->
+                <div>
+                    <img src="assets\img\Pfizer Logo White RGB.png" href="#page-top" style="height:2.5rem" alt="Pfizer logo">
+                </div>
+                <button class="navbar-toggler text-uppercase font-weight-bold pfizerButton text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Cuestionario</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="https://www.portalpfizer.com.ar/areasterapeuticas/enfermedadespocofrecuentes/neurologia">Ir a PortalPfizer</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="./referencias.html">Referencias</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+<!--         <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column"> -->
+                <!-- Masthead Heading-->
+<!--                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+ -->                <!-- Masthead Subheading-->
+<!--                 <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
+            </div>
+        </header> -->
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-pfizer mb-0">Formulario de migraña</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-brain"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+<!--                 Pregutnas formulario 
+ -->                
+                <form id="formulario" class="MyPadding">
+                        <p class="MyP">
+                        <label>
+                            1. ¿Su paciente tiene dolores de cabeza frecuentes o intensos ?
+                            <div class="questionSpace">
+                                <div>
+                                    <input type="radio" name="pregunta1" value="si" required > Sí
+                                </div>
+                                <div>
+                                    <input type="radio" name="pregunta1" value="no"> No
+                                </div>
+                            </div>
+                        </label>
+                        </p>
+                        <p class="MyP">
+                        <label>
+                            2. ¿Los dolores de cabeza de su paciente duran más de 4 horas?
+                            <div class="questionSpace">
+                                <div>
+                                    <input type="radio" name="pregunta2" value="si" required > Sí    
+                                </div>
+                                <div>
+                                    <input type="radio" name="pregunta2" value="no"> No
+                                </div>
+                            </div>
+                        </label>
+                        </p>
+                        <p class="MyP">
+                        <label>
+                            3. ¿El paciente suele sufrir náuseas cuando tiene dolor de cabeza?
+                            <div class="questionSpace">
+                                <div>
+                                    <input type="radio" name="pregunta3" value="si" required > Sí
+                                </div>
+                                <div>
+                                    <input type="radio" name="pregunta3" value="no"> No
+                                </div>
+                            </div>
+                        </label>
+                        </p>
+                        <p class="MyP">
+                        <label>
+                            4. ¿Al paciente le molesta la luz o el ruido cuando tiene dolor de cabeza?
+                            <div class="questionSpace">
+                                <div>
+                                    <input type="radio" name="pregunta4" value="si" required > Sí
+                                </div>
+                                <div>
+                                    <input type="radio" name="pregunta4" value="no"> No
+                                </div>
+                            </div>
+                        </label>
+                        </p>
+                        <p class="MyP">
+                        <label>
+                            5. ¿El dolor de cabeza limita alguna de las actividades físicas o intelectuales de su paciente?
+                            <div class="questionSpace" style="padding-bottom: 1rem;">
+                                <div>
+                                    <input type="radio" name="pregunta5" value="si" required > Sí
+                                </div>
+                                <div>
+                                    <input type="radio" name="pregunta5" value="no"> No
+                                </div>
+                            </div>
+                        </label>
+                        </p>
+                        <div class="row justify-content-center">
+                            <button id="miBoton" class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#portfolioModal1">Enviar</button>
+                        </div>
+                    </form>
+            </div>
+        </section>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Pfizer 2023</small></div>
+        </div>
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-pfizer text-uppercase mb-0">Resultado</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-brain"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <div id="resultado" class=".masthead-subheading text-secondary text-uppercase mb-0"></div>
+                                    <!-- Explicación migraña -->
+                                    <div>
+                                        El estudio al que refiere este cuestionario fue diseñado para desarrollar y evaluar las propiedades de un nuevo cuestionario para screening de migraña, el MS-Q, desarrollado de acuerdo con los criterios IHS (International Headache Society), que se utilizan en la práctica clínica médica y en investigación en la población general y en medicina ocupacional. 
+                                        <br>
+                                        <br>
+                                        El MS-Q demostró validez – con una sensibilidad, especificidad y VPP (valor predictivo positivo) y NPV (valor predictivo negativo) de mas de 0.8 en todos los casos. Estos valores obtenidos en el MS-Q son ligeramente mejores que los reportados en otros cuestionarios de screening de migraña. Adicionalmente confirmando la validez de cuestionario, se incorporaron a la versión final del MS-Q los principales criterios de la clasificación IHS actual, en los cuales un mínimo de cinco ataques de dolor de cabeza, son requeridos según los criterios B-D.
+                                        <br>
+                                        <br>
+                                        El hecho que el cuestionario MS-Q contemple los criterios HIS constituye una ventaja para este screening por sobre otras, ya que favorece la concordancia entre el MS-Q y la definición diagnóstica de migraña. Los resultados del análisis de confiabilidad revelaron un coeficiente alfa de Cronbach mayor al valor recomendado de 0.70, lo que confirma que esta herramienta es tanto confiable como valida.
+                                        <br>
+                                        <br>
+                                        Se requiere un estudio de validación más extenso para poder confirmar, en el ámbito de la atención medica primaria, las buenas propiedades clnimetricas observadas en las fases preliminares del desarrollo y validación del MS-Q. Una limitación adicional es que no fue evaluada la capacidad del MS-Q para discriminar los pacientes con episodios de migraña crónicos de los episódicos. 
+                                        <br>
+                                        <br>
+                                        Es así, que se puede concluir que el MS-Q demostró una adecuada validez y confiabilidad y que podría ser una buena herramienta de screening para ser aplicada en la práctica clínica médica, así como en investigación.
+                                        <br>
+                                        <br>
+                                    </div>
+                                    
+                                    <div></div>
+<!--                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+ -->                                    <button  class="btn btn-primary" data-bs-dismiss="modal" >
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
